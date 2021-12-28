@@ -48,7 +48,7 @@
 
   - codeRecord         代码查询列表
 
-    <img src="images/普通用户.png" alt="普通用户" width=500 height=500 />
+    <img src="images/普通用户.png" alt="普通用户" width=500 height=400 />
 
 - **(超级)管理员的相关模块及其调用关系如下：**
 
@@ -67,7 +67,7 @@
 
   #### 数据库设计（UML示意图如下：）
 
-  <img src="images/pms数据库.png" alt="pms数据库" width=500 height=500 />
+  <img src="images/pms数据库.png" alt="pms数据库" width=500 height=400 />
 
 ## 技术实现方案
 
