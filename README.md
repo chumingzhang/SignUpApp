@@ -38,7 +38,7 @@
 
   - newsDetail      新闻详情页面
 
-    <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E4%BB%A3%E7%A0%81%E8%AF%A6%E6%83%85.jpg" alt="代码详情" style="zoom:10%;" />           <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%9F%A5%E7%9C%8B%E6%88%90%E7%BB%A9.jpg" alt="查看成绩" style="zoom:10%;" />            <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%96%B0%E9%97%BB%E8%AF%A6%E6%83%85.jpg" alt="新闻详情" style="zoom:10%;" />
+    <img src="images/代码详情.jpg" alt="代码详情" width=250 height=500 />           <img src="images/查看成绩.jpg" alt="查看成绩" width=250 height=500 />            <img src="images/新闻详情.jpg" alt="新闻详情" width=250 height=500 />
 
 - **普通用户的相关模块及其调用关系如下：**
 
@@ -48,7 +48,7 @@
 
   - codeRecord         代码查询列表
 
-    <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%5C%E8%B5%84%E6%96%99%E5%A1%AB%E5%86%99%5C%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7.png" alt="普通用户" style="zoom:30%;" />
+    <img src="images/普通用户.jpg" alt="普通用户" width=250 height=500 />
 
 - **(超级)管理员的相关模块及其调用关系如下：**
 
@@ -63,7 +63,7 @@
   - superNewsRelease           发布新闻页面
   - superUpload                     上传成绩/代码/报名表文件到数据库
 
-  <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%5C%E8%B5%84%E6%96%99%E5%A1%AB%E5%86%99%5C%E7%AE%A1%E7%90%86%E5%91%98.png" alt="管理员" style="zoom:40%;" />
+  <img src="images/普通用户.jpg" alt="管理员" width=250 height=500 />
 
   #### 数据库设计（UML示意图如下：）
 
@@ -96,25 +96,25 @@
    - 以后登录会自动获取上次登录信息，如需修改请进入`个人资料`界面点击`修改`，修改完后并点击`保存`后生效
    - 点击保存后系统会从报名表数据库中查找报名信息，如果有对应报名信息则显示在`信息核对区域`，没有则`信息核对区域`显示为空
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E4%B8%AA%E4%BA%BA%E8%B5%84%E6%96%99.jpg" alt="个人资料" style="zoom:15%;" /> 
+   <img src="images/个人资料.jpg" alt="个人资料" width=250 height=500  /> 
 
 2. **查看成绩——`成绩查询`界面**
 
    进入成绩查询界面可查看本场比赛所有成绩，点击对应成绩可展开查看详情，详尽到`xx比赛xx场次xx题目xx测试点`的`得分`、`状态`、`时间`和`内存`信息
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%9F%A5%E7%9C%8B%E6%88%90%E7%BB%A9.jpg" alt="查看成绩" style="zoom:15%;" /> 
+   <img src="images/查看成绩.jpg" alt="查看成绩"  width=250 height=500 /> 
 
 3. **查看代码——`代码查询`界面**
 
    进入代码查询界面可以查看本场比赛所有代码，点击对应场次可展开，点击具体题目跳转到代码详情页面，并提供`一键拷贝代码`功能
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%9F%A5%E7%9C%8B%E4%BB%A3%E7%A0%81.jpg" alt="查看代码" style="zoom:15%;" />      <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E4%BB%A3%E7%A0%81%E8%AF%A6%E6%83%85.jpg" alt="代码详情" style="zoom:15%;" />
+   <img src="images/查看代码.jpg" alt="查看代码"  width=250 height=500 />      <img src="images/代码详情.jpg" alt="代码详情" width=250 height=500 />
 
 4. **查看新闻——点击新闻列表对应新闻即可**
 
    点击新闻会打开对应的PDF文件，可查看、保存与转发
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%96%B0%E9%97%BB%E8%AF%A6%E6%83%85.jpg" alt="新闻详情" style="zoom:15%;" /> 
+   <img src="images/新闻详情.jpg" alt="新闻详情" width=250 height=500 /> 
 
 
 
@@ -128,13 +128,13 @@
 
    - 发布后`当前active的比赛`字段会自动刷新
 
-     <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E5%8F%91%E5%B8%83%E6%AF%94%E8%B5%9B.jpg" alt="发布比赛" style="zoom:15%;" /> 
+     <img src="images/发布比赛.jpg" alt="发布比赛" width=250 height=500 /> 
 
 2. **上传报名表——`上传信息`界面**
 
    点击`上传报名EXCEL`按钮，选择报名表即可。规范格式见文末`上传信息格式规范`
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E4%B8%8A%E4%BC%A0%E8%B5%84%E6%96%99.jpg" alt="上传资料" style="zoom:15%;" /> 
+   <img src="images/上传资料.jpg" alt="上传资料" width=250 height=500 /> 
 
 3. **查看报名列表——`查看报名列表`界面**
 
@@ -144,19 +144,19 @@
 
    - 点击`点击导出`按钮可导出将报名信息导出为EXCEL表格，点击后自动打开EXCEL文件，需要手动保存
 
-     <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%9F%A5%E7%9C%8B%E6%8A%A5%E5%90%8D.jpg" alt="查看报名" style="zoom:15%;" /> 
+     <img src="images/查看报名.jpg" alt="查看报名" width=250 height=500 /> 
 
 4. **上传成绩和代码——`上传信息`界面**
 
    点击`上传成绩json`/`上传代码json`按钮，选择对应json文件即可。规范格式见文末`上传信息格式规范`
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E4%B8%8A%E4%BC%A0%E8%B5%84%E6%96%99.jpg" alt="上传资料" style="zoom:15%;" /> 
+   <img src="images/上传资料.jpg" alt="上传资料" width=250 height=500 /> 
 
 5. **查看成绩和代码——`查看成绩和代码`界面**
 
    输入考号可查看对应参赛选手的成绩和代码，展示界面同普通用户
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2.jpg" alt="数据查询" style="zoom:15%;" /> 
+   <img src="images/数据查询.jpg" alt="数据查询" width=250 height=500 /> 
 
 6. **发布新闻——`发布新闻`界面**
 
@@ -164,13 +164,13 @@
 
    - 点击`上传新闻PDF`选择对应新闻文件，点击发布即可
 
-     <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E5%8F%91%E5%B8%83%E6%96%B0%E9%97%BB.jpg" alt="发布新闻" style="zoom:15%;" /> 
+     <img src="images/发布新闻.jpg" alt="发布新闻" width=250 height=500 /> 
 
 7. **查看新闻——`查看新闻`界面**
 
    打开为新闻列表，点击自动跳转到对应新闻PDF
 
-   <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E6%96%B0%E9%97%BB%E5%88%97%E8%A1%A8.jpg" alt="新闻列表" style="zoom:15%;" /> 
+   <img src="images/新闻列表.jpg" alt="新闻列表" width=250 height=500 /> 
 
 8. **修改比赛状态——`修改比赛状态`界面**
 
@@ -180,7 +180,7 @@
 
    - 当前的比赛相关新闻、报名表、成绩、代码记录会被清空，自动载入被激活比赛的相关信息，这将耗时几分钟，请耐心等待
 
-     <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E4%BF%AE%E6%94%B9%E6%AF%94%E8%B5%9B.jpg" alt="修改比赛" style="zoom:15%;" /> 
+     <img src="images/修改比赛.jpg" alt="修改比赛" width=250 height=500 /> 
 
 9. **修改管理权限(超级管理员才能使用)——`修改管理权限`界面**
 
@@ -190,7 +190,7 @@
 
    - 添加或删除之前需确保该用户已经注册
 
-     <img src="E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E5%B0%8F%E7%A8%8B%E5%BA%8F%5C%E9%A2%84%E8%A7%88%5C%E4%BF%AE%E6%94%B9%E6%9D%83%E9%99%90.jpg" alt="修改权限" style="zoom:15%;" /> 
+     <img src="images/修改权限.jpg" alt="修改权限" width=250 height=500 /> 
 
 
 
