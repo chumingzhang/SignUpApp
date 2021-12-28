@@ -48,7 +48,7 @@
 
   - codeRecord         代码查询列表
 
-    <img src="images/普通用户.jpg" alt="普通用户" width=250 height=500 />
+    <img src="images/普通用户.png" alt="普通用户" width=500 height=500 />
 
 - **(超级)管理员的相关模块及其调用关系如下：**
 
@@ -63,13 +63,11 @@
   - superNewsRelease           发布新闻页面
   - superUpload                     上传成绩/代码/报名表文件到数据库
 
-  <img src="images/普通用户.jpg" alt="管理员" width=250 height=500 />
+  <img src="images/管理员.png" alt="管理员" width=500 height=500 />
 
   #### 数据库设计（UML示意图如下：）
 
-  ****
-
-  ![pms数据库](E:%5C360MoveData%5CUsers%5C%E5%A4%8D%E4%BB%87%E8%80%85%5CDesktop%5C%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%5C%E8%B5%84%E6%96%99%E5%A1%AB%E5%86%99%5Cpms%E6%95%B0%E6%8D%AE%E5%BA%93.png)
+  <img src="images/pms数据库.png" alt="pms数据库" width=500 height=500 />
 
 ## 技术实现方案
 
